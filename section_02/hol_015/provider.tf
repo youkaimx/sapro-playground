@@ -12,7 +12,7 @@ provider "aws" {
     tags = local.default_tags
   }
   profile = "ruben-orgdev"
-  alias = "orgdev"
+  alias   = "orgdev"
 }
 
 terraform {
