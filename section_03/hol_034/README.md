@@ -36,6 +36,10 @@ $ aws sts assume-role --role-arn arn:aws:iam::014834224223:role/S3ExternalAccess
         "Arn": "arn:aws:sts::014834224223:assumed-role/S3ExternalAccess/this"
     }
 ```
+
+## References
+- [Writing IAM Policies: How to Grant Access to an Amazon S3 Bucket](https://aws.amazon.com/blogs/security/writing-iam-policies-how-to-grant-access-to-an-amazon-s3-bucket/)
+
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
